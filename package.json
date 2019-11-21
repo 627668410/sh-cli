@@ -1,0 +1,23 @@
+{
+  "name": "l-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sh": "bin/sh",
+    "sh-add": "bin/sh-add",
+    "sh-delete": "bin/sh-delete",
+    "sh-list": "bin/sh-list",
+    "sh-init": "bin/sh-init"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "author": "shmily",
+  "license": "ISC"
+}
