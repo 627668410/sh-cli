@@ -32,9 +32,10 @@ console.log(chalk.white('\n Start generating... \n'))
 const spinner = ora("Downloading...");
 spinner.start();
 // 执行下载方法并传入参数
-download (
+download(
   url,
   projectName,
+  { clone: false }
   err => {
     if (err) {
       spinner.fail();
