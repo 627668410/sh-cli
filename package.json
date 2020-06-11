@@ -1,6 +1,6 @@
 {
-  "name": "feather-cli",
-  "version": "1.0.0",
+  "name": "sh-tpl",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
